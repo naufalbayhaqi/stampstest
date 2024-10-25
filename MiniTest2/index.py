@@ -6,7 +6,7 @@ def get_weather_forecast():
     city = 'Jakarta'
     
     url = f'http://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}&units=metric'
-    print(url)
+    # print(url)
     try:
         response = requests.get(url)
         
